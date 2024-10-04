@@ -7,7 +7,7 @@
 
 .weather-container {
   margin-top: 20px;
-  background-color: rgb(121, 153, 121);
+  background-color: rgb(144, 153, 121);
 }
 
 .weather-card {
@@ -44,14 +44,14 @@ input {
 
 button {
   padding: 10px;
-  background-color: #95dc98;
+  background-color: #95d4dc;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #a9eead;
+  background-color: #a9eee1;
 }
 .menu-bar {
   display: flex;
@@ -62,7 +62,7 @@ button:hover {
 .menu-button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #411cc6;
+  background-color: #4e2dc6;
   color: white;
   border: none;
   border-radius: 5px;

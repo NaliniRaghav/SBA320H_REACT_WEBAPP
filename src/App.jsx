@@ -15,11 +15,11 @@ const App = () => {
       const apiKey = import.meta.env.VITE_WEATHER_API_KEY;  
 
       if (forecastType === 'current') {
-        apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+        apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
       } else if (forecastType === 'hourly') {
-        apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=1`;
+        apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=1`;
       } else if (forecastType === 'forecast') {
-        apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=10`;
+        apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=10`;
       }
 
       const response = await fetch(apiUrl);

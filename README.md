@@ -38,7 +38,7 @@ This application demonstrates the ability to fetch real-time weather data from t
 
 ##  Hosting
 The application is hosted on [Netlify](https://www.netlify.com/) and can be accessed through the following live link:
-[Live Site](https://sba-weatherapp.netlify.app)
+[Live Site](https://sba-weatherapp.netlify.app/)
 
 ## Usage Instructions
 1. Open the app and either:

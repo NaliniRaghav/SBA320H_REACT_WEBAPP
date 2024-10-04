@@ -2,12 +2,12 @@
 .app {
   text-align: center;
   font-family: Arial, sans-serif;
-  background-color: rgb(114, 121, 122);
+  background-color: rgb(242, 218, 179);
 }
 
 .weather-container {
   margin-top: 20px;
-  background-color: rgb(144, 153, 121);
+  background-color: rgba(133, 209, 237, 0.887);
 }
 
 .weather-card {
@@ -44,14 +44,14 @@ input {
 
 button {
   padding: 10px;
-  background-color: #95d4dc;
+  background-color: #41cbdd;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #a9eee1;
+  background-color: #f3cd95;
 }
 .menu-bar {
   display: flex;
@@ -71,7 +71,7 @@ button:hover {
 }
 
 .menu-button:hover {
-  background-color: #514d0e;
+  background-color: #f1e753;
 }
 
 select {
